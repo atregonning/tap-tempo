@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF30D6EF1BF82138003DB683 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF30D6EE1BF82138003DB683 /* main.cpp */; };
+		BF30D6F71BF8215F003DB683 /* TempoTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF30D6F51BF8215F003DB683 /* TempoTracker.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		BF30D6EB1BF82138003DB683 /* TapTempo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TapTempo; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF30D6EE1BF82138003DB683 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BF30D6F51BF8215F003DB683 /* TempoTracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TempoTracker.cpp; sourceTree = "<group>"; };
+		BF30D6F61BF8215F003DB683 /* TempoTracker.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TempoTracker.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				BF30D6EE1BF82138003DB683 /* main.cpp */,
+				BF30D6F51BF8215F003DB683 /* TempoTracker.cpp */,
+				BF30D6F61BF8215F003DB683 /* TempoTracker.hpp */,
 			);
 			path = TapTempo;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF30D6F71BF8215F003DB683 /* TempoTracker.cpp in Sources */,
 				BF30D6EF1BF82138003DB683 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
